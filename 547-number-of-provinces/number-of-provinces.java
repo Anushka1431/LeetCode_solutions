@@ -1,3 +1,7 @@
+//see first cell in matrix and if it isnt visited then apply dfs on it .
+//in dfs make the i visited and then check for the connected components j
+//if j is 1 and not visited then apply dfs on it, else return. 
+//once reurned a province is increased
 class Solution {
     public int findCircleNum(int[][] isConnected) {
         int n=isConnected.length;
