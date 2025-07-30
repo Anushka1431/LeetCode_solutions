@@ -17,3 +17,7 @@ class Solution {
         return ans.toString();
     }
 }
+/*make a hashmap and add the <Character, Integer> pairs 
+make a max heap - using priority queue and custom logic desc according to the values 
+since strings are not immutable make a string builder , remove one by one letter from the q and append that letter its map value times . 
+now return this as a tostring ans .*/ 
